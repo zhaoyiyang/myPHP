@@ -22,9 +22,6 @@
             @$username =$_POST['username'];
             $sql = "insert into tb_user(name) values ('$username')";
             mysql_query($sql,$con);
-            
-
-
-        ?>
+         ?>
     </body>
 </html>
