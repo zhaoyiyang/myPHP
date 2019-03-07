@@ -13,9 +13,9 @@
             <input name="sb" type="submit" value="提交">
         </form>
         <?php
-            $con=mysql_connect("localhost","root","");
+            phpinfo();
+            $con=mysql_connect("localhost","test","123456");
 
-            
             mysql_select_db("test",$con);
 
             
